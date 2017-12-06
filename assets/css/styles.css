@@ -1,0 +1,106 @@
+html, body{
+    margin : 0;
+    background-color : darkgray;
+    font-family : Calibri, sans-serif;
+}
+
+a{
+    text-decoration : none;
+}
+
+#index-cloud{
+    width : 70%;
+    margin : auto;
+    background-color : #fff;
+}
+.form-cloud{
+    width : 40.8%;
+    margin : auto;
+}
+.form-cloud input{
+    width : 100%;
+    margin-bottom : 20px;
+}
+.titre-co{
+    color : #fff;
+    background-color : gray;
+}
+
+.titre-co h2{
+    font-size : 26px;
+    padding-top : 12px;
+    padding-bottom : 12px;
+    text-align : center !important;
+}
+.form-cloud button{
+    border : none;
+    color : #fff;
+    font-size : 18px;
+    background-color : darkgray;
+    border-radius : 4px;
+    padding : 5px 10px 5px 10px;
+    margin-bottom : 35px;
+}
+@media screen and (min-width: 1070px){
+    .cont-headb{
+        width : 1070px !important;
+    }
+    .cont-main{
+        width : 1070px !important;
+    }
+    #index-cloud{
+        width : 601px !important;
+    }
+}
+.cont-headb{
+    width : 90%;
+    margin : auto;
+}
+.cont-main{
+    width : 90%;
+    margin : auto;
+    background-color : #fff;
+    margin-top : 20px;
+}
+#head-inside{
+    background-color : gray;
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+#block-left{
+    display : block;
+    float : left;
+}
+#block-right{
+    display : block;
+    float : right;
+}
+#sect-inter nav{
+    width : 60%;
+    margin : auto;
+}
+#sect-inter nav a{
+    display : block;
+    color : #fff;
+    background-color : gray;
+    font-size : 34px;
+    padding : 8px 15px 8px 15px;
+    margin-top : 65px;
+    margin-bottom : 65px;
+    float : left;
+}
+#sect-inter nav a:last-of-type{
+    float:right;
+}
+.return{
+    color : #fff;
+    background-color : gray;
+    padding : 3px 8px 3px 8px;
+    font-size : 22px;
+}
+.clearfix:after{
+    clear : both;
+    float : none;
+    display : block;
+    content : "";
+}
